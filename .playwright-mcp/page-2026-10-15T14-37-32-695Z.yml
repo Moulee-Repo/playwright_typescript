@@ -1,0 +1,698 @@
+- generic [ref=e1]:
+  - dialog "Cookie Consent Banner" [ref=e2]:
+    - button "Close this consent banner" [active] [ref=e3] [cursor=pointer]
+    - generic [ref=e5]:
+      - generic [ref=e6]: "This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. To learn more, view the following link:"
+      - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+        - /url: https://saucelabs.com/doc/privacy-policy
+    - button "Manage Preferences" [ref=e9] [cursor=pointer]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]: Test faster with Sauce AI, now in every free trial.
+        - link "Try Sauce AI" [ref=e14] [cursor=pointer]:
+          - /url: https://saucelabs.com/sign-up
+      - generic [ref=e16] [cursor=pointer]: X
+    - navigation [ref=e20]:
+      - generic [ref=e22]:
+        - link [ref=e23] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e28]:
+          - generic [ref=e31]:
+            - button "Why SauceLabs" [ref=e34] [cursor=pointer]
+            - button "Products" [ref=e40] [cursor=pointer]
+            - button "Solutions" [ref=e46] [cursor=pointer]
+            - button "Developers" [ref=e52] [cursor=pointer]
+            - button "Resources" [ref=e58] [cursor=pointer]
+            - link "Pricing" [ref=e63] [cursor=pointer]:
+              - /url: https://saucelabs.com/pricing
+          - generic [ref=e66]:
+            - link "Login" [ref=e68] [cursor=pointer]:
+              - /url: https://accounts.saucelabs.com/
+            - link "Book a Demo" [ref=e70] [cursor=pointer]:
+              - /url: /request-demo
+  - generic [ref=e73]:
+    - generic [ref=e74]:
+      - paragraph [ref=e75]: From BUSINESS Intent to Production Confidence
+      - heading "Verify AI-generated code at the pace it's written." [level=1] [ref=e76]
+    - generic [ref=e77]:
+      - paragraph [ref=e78]: AURA is the only closed-loop agentic AI platform for enterprise test automation and release assurance. It writes, runs, analyzes and heals your tests. 90% fewer production incidents. 47% faster releases. Built by the company behind Selenium and Appium.
+      - generic [ref=e79]:
+        - link "Start Free" [ref=e81] [cursor=pointer]:
+          - /url: https://saucelabs.com/sign-up
+        - link "Book a Demo" [ref=e84] [cursor=pointer]:
+          - /url: /request-demo
+  - generic [ref=e95]:
+    - paragraph [ref=e97]: "SAUCE LABS: THE UNIFIED PLATFORM ENTERPRISES TRUST"
+    - generic [ref=e99]:
+      - img "Brand Logo" [ref=e102]
+      - img "Brand Logo" [ref=e105]
+      - img "Brand Logo" [ref=e108]
+      - img "Brand Logo" [ref=e111]
+      - img "Brand Logo" [ref=e115]
+      - img "Brand Logo" [ref=e118]
+      - img "Brand Logo" [ref=e121]
+  - generic [ref=e193]:
+    - img "Pixelated Blocks" [ref=e194]
+    - generic [ref=e196] [cursor=pointer]
+  - generic [ref=e198]:
+    - heading "Strategic Outcomes" [level=2] [ref=e199]
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - generic:
+          - img "Pixelated Blocks"
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - paragraph [ref=e207]: QUALITY
+              - heading "Verify every release against business intent" [level=3] [ref=e208]
+            - paragraph [ref=e209]: Agentic release verification against business intent that catches what slips past human review of AI-generated code.
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - paragraph [ref=e212]: "90"
+              - paragraph [ref=e213]: "%"
+            - paragraph [ref=e214]: reduction in production incidents
+          - generic [ref=e215]:
+            - paragraph [ref=e218]: 75% decrease in critical crashes
+            - paragraph [ref=e221]: 4x fewer critical issues in production
+            - paragraph [ref=e224]: 75% lower error resolution costs
+      - generic [ref=e225]:
+        - generic:
+          - img "Pixelated Blocks"
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - paragraph [ref=e231]: SPEED
+              - heading "Validate code reliability at the speed of AI" [level=3] [ref=e232]
+            - paragraph [ref=e233]: AI agents that automate end-to-end test authoring, execution, and analysis, ensuring release validation at the speed code is generated.
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - paragraph [ref=e236]: "47"
+              - paragraph [ref=e237]: "% +"
+            - paragraph [ref=e238]: faster release cycles to market
+          - generic [ref=e239]:
+            - paragraph [ref=e242]: 90%+ automated coverage
+            - paragraph [ref=e245]: 75% reduction in test execution time
+            - paragraph [ref=e248]: 90%+ faster root-cause analysis
+      - generic [ref=e249]:
+        - generic:
+          - img "Pixelated Blocks"
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - paragraph [ref=e255]: EFFICIENCY
+              - heading "Keep humans at the core of quality assurance" [level=3] [ref=e256]
+            - paragraph [ref=e257]: "Code verification capabilities that empower developers and testers in native workflows: AI coding tools, IDEs, and CI/CD pipelines."
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - paragraph [ref=e260]: "38"
+              - paragraph [ref=e261]: "% +"
+            - paragraph [ref=e262]: engineering capacity reclaimed
+          - generic [ref=e263]:
+            - paragraph [ref=e266]: 80%+ faster test authoring
+            - paragraph [ref=e269]: Non-flaky tests across 10,000+ device and OS combinations
+            - paragraph [ref=e272]: Works with every major framework
+  - generic [ref=e274]:
+    - heading "AURA delivers outcomes at every level of your engineering organization." [level=1] [ref=e276]
+    - generic [ref=e277]:
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - img "Pixelated Blocks" [ref=e287]
+          - paragraph [ref=e288]: For the C-suite
+        - generic [ref=e289]:
+          - paragraph [ref=e290]: Business outcomes that change the board conversation.
+          - generic [ref=e291]:
+            - paragraph [ref=e292]: OUTCOMES
+            - list [ref=e295]:
+              - listitem [ref=e296]:
+                - strong [ref=e297]: 90%
+                - text: reduction in production incidents
+              - listitem [ref=e298]:
+                - strong [ref=e299]: 47%+
+                - text: faster release cycles to market
+              - listitem [ref=e300]:
+                - strong [ref=e301]: 38%+
+                - text: engineering capacity reclaimed
+        - link "see business outcomes" [ref=e303] [cursor=pointer]:
+          - /url: /personas/aura-for-ctos
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - img "Pixelated Blocks" [ref=e317]
+          - paragraph [ref=e318]: For directors of engineering and quality
+        - generic [ref=e319]:
+          - paragraph [ref=e320]: Strategic outcomes you can stake the roadmap on.
+          - generic [ref=e321]:
+            - paragraph [ref=e322]: OUTCOMES
+            - list [ref=e325]:
+              - listitem [ref=e326]:
+                - strong [ref=e327]: Every release verified
+                - text: against business intent‍
+              - listitem [ref=e328]:
+                - strong [ref=e329]: ~100%
+                - text: of test authoring, execution, and analysis automated‍
+              - listitem [ref=e330]:
+                - strong [ref=e331]: Testing embedded
+                - text: in the developer tool stack
+        - link "see strategic outcomes" [ref=e333] [cursor=pointer]:
+          - /url: /personas/aura-for-directors-of-engineering
+      - generic [ref=e343]:
+        - generic [ref=e344]:
+          - img "Pixelated Blocks" [ref=e347]
+          - paragraph [ref=e348]: For developers and QA engineers
+        - generic [ref=e349]:
+          - paragraph [ref=e350]: Operational outcomes you'll feel in week one.
+          - generic [ref=e351]:
+            - paragraph [ref=e352]: OUTCOMES
+            - list [ref=e355]:
+              - listitem [ref=e356]:
+                - paragraph [ref=e357]:
+                  - strong [ref=e358]: 80%+
+                  - text: less time on test authoring
+              - listitem [ref=e359]:
+                - paragraph [ref=e360]:
+                  - strong [ref=e361]: Tests that survive
+                  - text: UI changes
+              - listitem [ref=e362]:
+                - paragraph [ref=e363]:
+                  - strong [ref=e364]: Root cause in minutes,
+                  - text: not hours
+        - link "see operational outcomes" [ref=e366] [cursor=pointer]:
+          - /url: /personas/aura-for-developers
+  - generic [ref=e372]:
+    - generic [ref=e373]:
+      - paragraph [ref=e374]: AURA USE CASES
+      - heading "Operational Outcomes" [level=2] [ref=e375]
+    - generic [ref=e376]:
+      - generic [ref=e377]:
+        - generic [ref=e378]:
+          - img "Pixelated Blocks"
+          - generic [ref=e379]:
+            - generic [ref=e380]:
+              - paragraph [ref=e382]: "1"
+              - heading "Intent-based test case generation" [level=3] [ref=e383]
+            - paragraph [ref=e384]: "Describe tests in natural language, get executable tests in your framework of choice: Selenium, Cypress, Appium, and more. Authored right in your IDE‍"
+          - generic [ref=e385]:
+            - paragraph [ref=e386]: OUTCOME
+            - paragraph [ref=e388]:
+              - strong [ref=e389]: 80%+
+              - text: test authoring time reduction
+          - link "learn more" [ref=e391] [cursor=pointer]:
+            - /url: /use-case/intent-based-test-generation
+        - generic [ref=e393]:
+          - img "Pixelated Blocks"
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - paragraph [ref=e397]: "2"
+              - heading "Resilient test infrastructure" [level=3] [ref=e398]
+            - paragraph [ref=e399]: Tests built on application intent survive UI changes. Device and framework agnostic. When something fails, you get the insight to fix it.‍
+          - generic [ref=e400]:
+            - paragraph [ref=e401]: OUTCOME
+            - paragraph [ref=e403]:
+              - strong [ref=e404]: 75%
+              - text: reduced breaking changes
+          - link "learn more" [ref=e406] [cursor=pointer]:
+            - /url: /use-case/resilient-test-infrastructure
+        - generic [ref=e408]:
+          - img "Pixelated Blocks"
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - paragraph [ref=e412]: "3"
+              - heading "Real-world device coverage" [level=3] [ref=e413]
+            - paragraph [ref=e414]: 10,000+ real devices, 3,000+ OS/browser combinations. Programmatic device control for agentic testing and custom workflows on real device infrastructure.‍
+          - generic [ref=e415]:
+            - paragraph [ref=e416]: OUTCOME
+            - paragraph [ref=e418]:
+              - strong [ref=e419]: 90%+
+              - text: increase in test coverage
+          - link "learn more" [ref=e421] [cursor=pointer]:
+            - /url: /use-case/real-world-device-coverage
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - img "Pixelated Blocks"
+          - generic [ref=e425]:
+            - generic [ref=e426]:
+              - paragraph [ref=e428]: "4"
+              - heading "Automated test case execution" [level=3] [ref=e429]
+            - paragraph [ref=e430]: Thousands of concurrent sessions on secure device cloud infrastructure hosted by Sauce Labs. Nothing for you to provision, manage, or maintain. ‍
+          - generic [ref=e431]:
+            - paragraph [ref=e432]: OUTCOME
+            - paragraph [ref=e434]:
+              - strong [ref=e435]: 75%
+              - text: test execution time savings
+          - link "learn more" [ref=e437] [cursor=pointer]:
+            - /url: /use-case/automated-test-execution
+        - generic [ref=e439]:
+          - img "Pixelated Blocks"
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - paragraph [ref=e443]: "5"
+              - heading "AI-powered test failure analysis" [level=3] [ref=e444]
+            - paragraph [ref=e445]: Turn raw test results into answers. AI-generated insights pinpoint the failure and root cause across runs, with recommendations on remediation in your workflow.
+          - generic [ref=e446]:
+            - paragraph [ref=e447]: OUTCOME
+            - paragraph [ref=e449]:
+              - strong [ref=e450]: 90%+
+              - text: faster root-cause analysis
+          - link "learn more" [ref=e452] [cursor=pointer]:
+            - /url: /use-case/ai-powered-test-failure-analysis
+        - generic [ref=e454]:
+          - img "Pixelated Blocks"
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - paragraph [ref=e458]: "6"
+              - heading "Integrated beta testing" [level=3] [ref=e459]
+            - paragraph [ref=e460]: Secure app distribution at enterprise scale with SSO and role-based access. Get real user validation pre-release, and reproduce reported bugs on the exact real device they hit it on.‍
+          - generic [ref=e461]:
+            - paragraph [ref=e462]: OUTCOME
+            - paragraph [ref=e464]:
+              - strong [ref=e465]: 50%
+              - text: shorter beta cycles
+          - link "learn more" [ref=e467] [cursor=pointer]:
+            - /url: /use-case/integrated-beta-testing
+      - generic [ref=e469]:
+        - generic [ref=e470]:
+          - img "Pixelated Blocks"
+          - generic [ref=e471]:
+            - generic [ref=e472]:
+              - paragraph [ref=e474]: "7"
+              - heading "Production error analysis" [level=3] [ref=e475]
+            - paragraph [ref=e476]: Faster root-cause analysis with recommendations. Real-time alerts, structured error data, and deduplication surface the errors that matter.‍
+          - generic [ref=e477]:
+            - paragraph [ref=e478]: OUTCOME
+            - paragraph [ref=e480]:
+              - strong [ref=e481]: 75%+
+              - text: reduction in critical crashes
+          - link "learn more" [ref=e483] [cursor=pointer]:
+            - /url: /use-case/production-error-analysis
+        - generic [ref=e485]:
+          - generic [ref=e487]:
+            - img "Sauce Labs Logo Icon"
+          - heading "Why Sauce" [level=3] [ref=e488]
+          - generic [ref=e489]:
+            - paragraph [ref=e490]:
+              - strong [ref=e491]: Industry's largest dataset of 8.7B+ enterprise test executions.Built by founders of Selenium and Appium. ISO 42001 certified for responsible AI, alongside ISO/IEC 27001 and ISO/IEC 27701 certifications.
+            - link "learn more" [ref=e493] [cursor=pointer]:
+              - /url: /why-sauce
+          - img "Pixelated Blocks"
+  - generic [ref=e497]:
+    - generic [ref=e498]:
+      - paragraph [ref=e499]: Scaled to 50,000 automated tests per day. Accelerated deployment from twice a month to multiple times a day.
+      - link "READ THE STORY" [ref=e500] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/walmart-embraces-test-automation-and-open-source-to-increase-coverage-and-deploy-more-often
+    - generic [ref=e503]:
+      - paragraph [ref=e504]: Expanded test volume 250x to 25,000+ tests, achieving 100x increase in UI coverage. Cut execution time — days to hours.
+      - link "READ THE STORY" [ref=e505] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/menlo-security-deploys-global-saas-browser-with-sauce-labs
+    - generic [ref=e508]:
+      - paragraph [ref=e509]: Achieved 60%+ faster release cycles, increased platform coverage by 70%, and accelerated user adoption.
+      - link "READ THE STORY" [ref=e510] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/how-keller-williams-accelerated-their-release-cycles-with-sauce-labs
+    - generic [aria-hidden] [ref=e513]:
+      - paragraph [ref=e514]: Scaled to 50,000 automated tests per day. Accelerated deployment from twice a month to multiple times a day.
+      - link [ref=e515] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/walmart-embraces-test-automation-and-open-source-to-increase-coverage-and-deploy-more-often
+        - generic [ref=e516]: READ THE STORY
+    - generic [aria-hidden] [ref=e518]:
+      - paragraph [ref=e519]: Expanded test volume 250x to 25,000+ tests, achieving 100x increase in UI coverage. Cut execution time — days to hours.
+      - link [ref=e520] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/menlo-security-deploys-global-saas-browser-with-sauce-labs
+        - generic [ref=e521]: READ THE STORY
+    - generic [aria-hidden] [ref=e523]:
+      - paragraph [ref=e524]: Achieved 60%+ faster release cycles, increased platform coverage by 70%, and accelerated user adoption.
+      - link [ref=e525] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/how-keller-williams-accelerated-their-release-cycles-with-sauce-labs
+        - generic [ref=e526]: READ THE STORY
+    - generic [aria-hidden] [ref=e528]:
+      - paragraph [ref=e529]: Scaled to 50,000 automated tests per day. Accelerated deployment from twice a month to multiple times a day.
+      - link [ref=e530] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/walmart-embraces-test-automation-and-open-source-to-increase-coverage-and-deploy-more-often
+        - generic [ref=e531]: READ THE STORY
+    - generic [aria-hidden] [ref=e533]:
+      - paragraph [ref=e534]: Expanded test volume 250x to 25,000+ tests, achieving 100x increase in UI coverage. Cut execution time — days to hours.
+      - link [ref=e535] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/menlo-security-deploys-global-saas-browser-with-sauce-labs
+        - generic [ref=e536]: READ THE STORY
+    - generic [aria-hidden] [ref=e538]:
+      - paragraph [ref=e539]: Achieved 60%+ faster release cycles, increased platform coverage by 70%, and accelerated user adoption.
+      - link [ref=e540] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/how-keller-williams-accelerated-their-release-cycles-with-sauce-labs
+        - generic [ref=e541]: READ THE STORY
+    - generic [aria-hidden] [ref=e543]:
+      - paragraph [ref=e544]: Scaled to 50,000 automated tests per day. Accelerated deployment from twice a month to multiple times a day.
+      - link [ref=e545] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/walmart-embraces-test-automation-and-open-source-to-increase-coverage-and-deploy-more-often
+        - generic [ref=e546]: READ THE STORY
+    - generic [aria-hidden] [ref=e548]:
+      - paragraph [ref=e549]: Expanded test volume 250x to 25,000+ tests, achieving 100x increase in UI coverage. Cut execution time — days to hours.
+      - link [ref=e550] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/menlo-security-deploys-global-saas-browser-with-sauce-labs
+        - generic [ref=e551]: READ THE STORY
+    - generic [aria-hidden] [ref=e553]:
+      - paragraph [ref=e554]: Achieved 60%+ faster release cycles, increased platform coverage by 70%, and accelerated user adoption.
+      - link [ref=e555] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/case-studies/how-keller-williams-accelerated-their-release-cycles-with-sauce-labs
+        - generic [ref=e556]: READ THE STORY
+  - generic [ref=e558]:
+    - generic [ref=e559]:
+      - generic [ref=e560]:
+        - paragraph [ref=e561]: Value delivered across the SDLC
+        - heading "The world's only full-lifecycle release assurance platform" [level=2] [ref=e562]
+      - paragraph [ref=e563]: AURA isn't a point tool. It's a continuous learning system that works across every stage of the lifecycle — requirements, build, test, analyze, deploy, and monitor — with autonomous agents and human oversight built in.
+      - link "Book a Demo" [ref=e565] [cursor=pointer]:
+        - /url: /request-demo
+      - generic [ref=e573]:
+        - img "Pixelated Blocks"
+        - generic [ref=e574]:
+          - generic [ref=e575]:
+            - heading "The AI-Unified Release Assurance platform" [level=3] [ref=e576]
+            - generic:
+              - img "Platform Image Diagram"
+            - generic [ref=e577]:
+              - generic [ref=e578]:
+                - paragraph [ref=e580]: Framework-Agnostic
+                - img "framework agnostic" [ref=e583]
+              - generic [ref=e584]:
+                - paragraph [ref=e586]: CI/CD-Ready
+                - img "Integrated in CI/CD Pipelines" [ref=e589]
+          - generic [ref=e590]:
+            - paragraph [ref=e591]: EXTENSIBLE
+            - generic [ref=e593]:
+              - paragraph [ref=e595]: AI CODING
+              - paragraph [ref=e598]: IDEs
+              - generic [ref=e600]:
+                - paragraph [ref=e601]: APIs
+                - paragraph [ref=e603]: API
+              - paragraph [ref=e605]: MCP
+    - img "Pixelated Blocks"
+  - generic [ref=e608]:
+    - paragraph [ref=e609]: Risk-adjusted estimates for a composite organization representative of interviewed customers.
+    - heading "Forrester's commissioned Total Economic Impact™ study of Sauce Labs:" [level=2] [ref=e610]
+    - generic [ref=e611]:
+      - generic [ref=e612]:
+        - generic [ref=e613]:
+          - paragraph [ref=e614]: "217"
+          - paragraph [ref=e615]: "% ROI"
+        - paragraph [ref=e617]: over three years
+      - generic [ref=e618]:
+        - generic [ref=e620]:
+          - paragraph [ref=e621]: <
+          - paragraph [ref=e622]: "6"
+          - paragraph [ref=e623]: Months
+        - paragraph [ref=e625]: to payback
+      - generic [ref=e626]:
+        - generic [ref=e628]:
+          - paragraph [ref=e629]: $
+          - paragraph [ref=e630]: "6.8"
+          - paragraph [ref=e631]: M
+        - paragraph [ref=e633]: net present value over three years
+    - link "Read the full Forrester TEI" [ref=e634] [cursor=pointer]:
+      - /url: /resources/report/total-economic-impact-of-sauce-labs
+  - generic [ref=e637]:
+    - generic [ref=e638]:
+      - generic [ref=e639]:
+        - paragraph [ref=e640]: INTEGRATIONS
+        - heading "Framework-agnostic. CI/CD-native. AI-ready." [level=2] [ref=e641]
+      - paragraph [ref=e642]: Connect to the pipelines and frameworks your team already uses. Selenium, Appium, Cypress, Playwright, Espresso, XCUITest, and every major CI/CD platform. Extend it however you like through MCPs, APIs, IDE plugins, and AI coding tool integrations. No rip-and-replace of your current toolchain.
+    - link "Learn More" [ref=e644] [cursor=pointer]:
+      - /url: https://docs.saucelabs.com/basics/integrations-overview/
+    - generic [ref=e646]:
+      - generic [ref=e648]:
+        - paragraph [ref=e649]:
+          - generic [ref=e650]: IDE & AI tools
+        - img "Integration Logo" [ref=e652]
+        - img "Integration Logo" [ref=e654]
+        - img "Integration Logo" [ref=e656]
+        - img "Integration Logo" [ref=e658]
+        - img "Integration Logo" [ref=e660]
+      - generic [ref=e662]:
+        - paragraph [ref=e663]: CI/CD pipelines
+        - img "Integration Logo" [ref=e665]
+        - img "Integration Logo" [ref=e667]
+        - img "Integration Logo" [ref=e669]
+        - img "Integration Logo" [ref=e671]
+      - generic [ref=e673]:
+        - paragraph [ref=e674]: Test frameworks
+        - img "Integration Logo" [ref=e676]
+        - img "Integration Logo" [ref=e678]
+        - img "Integration Logo" [ref=e680]
+        - img "Integration Logo" [ref=e682]
+        - img "Integration Logo" [ref=e684]
+        - img "Integration Logo" [ref=e686]
+      - generic [ref=e688]:
+        - paragraph [ref=e689]: PLATFORMS
+        - img "Integration Logo" [ref=e691]
+        - img "Integration Logo" [ref=e693]
+        - paragraph [ref=e695]: Web
+        - paragraph [ref=e697]: Real Devices
+        - paragraph [ref=e699]: Emulators
+        - paragraph [ref=e701]: Simulators
+  - generic [ref=e703]:
+    - generic [ref=e704]:
+      - generic [ref=e705]:
+        - paragraph [ref=e706]: Why Sauce Labs
+        - heading "Your business is unique. Your problems are not." [level=2] [ref=e707]
+      - paragraph [ref=e709]: We created the test automation category in the cloud era as the team behind Selenium and Appium. We're redefining it again for the AI era, with the industry's largest pool of cross-platform runtime intelligence.
+    - generic [ref=e710]:
+      - generic [ref=e711]:
+        - paragraph [ref=e713]: data advantage
+        - paragraph [ref=e714]: 8.7B+
+        - paragraph [ref=e716]: tests executed. The largest enterprise dataset in the industry.
+      - generic [ref=e719]:
+        - paragraph [ref=e721]: DOMAIN EXPERTISE
+        - paragraph [ref=e722]: 20 yrs
+        - paragraph [ref=e724]: of domain-specific, test execution data
+      - generic [ref=e727]:
+        - paragraph [ref=e729]: PROVEN SECURITY
+        - paragraph [ref=e730]: 80%+
+        - paragraph [ref=e732]: of the top 10 F2000 financial institutions are customers
+      - generic [ref=e733]:
+        - paragraph [ref=e735]: IT LEADER
+        - paragraph [ref=e736]: 25%
+        - paragraph [ref=e738]: of F2000 IT software and services firms are customers
+      - generic [ref=e741]:
+        - paragraph [ref=e743]: GAMING LEADER
+        - paragraph [ref=e744]: 60%
+        - paragraph [ref=e746]: of the top 10 global gaming developers are customers
+      - generic [ref=e749]:
+        - paragraph [ref=e751]: enterprise LEADER
+        - paragraph [ref=e752]: 300k
+        - paragraph [ref=e754]: active enterprise users
+  - generic [ref=e758]:
+    - img "Pixelated Blocks" [ref=e759]
+    - generic [ref=e761]:
+      - generic [ref=e763]:
+        - generic [ref=e764]: TRUST
+        - heading "Enterprise-grade security & compliance" [level=2] [ref=e767]
+        - list
+        - link "Visit the Trust Center" [ref=e771] [cursor=pointer]:
+          - /url: https://trust.saucelabs.com/
+      - generic [ref=e774]:
+        - generic [ref=e775]: Certifications
+        - generic [ref=e778]:
+          - generic [ref=e779]:
+            - paragraph [ref=e781]: ISO 42001
+            - paragraph [ref=e782]: Certified
+          - generic [ref=e783]:
+            - paragraph [ref=e785]: GDPR
+            - paragraph [ref=e786]: Compliant
+          - generic [ref=e787]:
+            - paragraph [ref=e789]: CCPA
+            - paragraph [ref=e790]: Compliant
+          - generic [ref=e791]:
+            - paragraph [ref=e793]: ISO 27001
+            - paragraph [ref=e794]: Certified
+          - generic [ref=e795]:
+            - generic [ref=e796]:
+              - paragraph [ref=e797]: SOC 2
+              - paragraph [ref=e798]: Type II
+            - paragraph [ref=e799]: Compliant
+          - generic [ref=e800]:
+            - paragraph [ref=e802]: ISO 27701
+            - paragraph [ref=e803]: Certified
+  - generic [ref=e808]:
+    - heading "Frequently Asked Questions" [level=2] [ref=e809]
+    - generic [ref=e812]:
+      - generic [ref=e815]:
+        - button "Is AURA just AI-powered testing with a new name?" [ref=e816] [cursor=pointer]
+        - paragraph [ref=e822]: No. While most AI testing tools focus on writing and maintaining tests faster, AURA works at a deeper level to improve release assurance across the full delivery lifecycle. The Sauce Labs platform extracts business intent, generates and runs your tests, correlates failures against nearly two decades of execution data, and closes the loop from production errors back into coverage. The payoff is confidence in software delivery that moves faster and still holds up under scrutiny.
+      - generic [ref=e825]:
+        - button "We already use AI coding assistants to generate tests. Why do we need AURA?" [ref=e826] [cursor=pointer]
+        - paragraph [ref=e832]: Generating a test and verifying software are two different jobs. An AI assistant writes the script, whereas AURA runs your app on real devices and tells you what actually happened, remembers which tests fail intermittently, and catches the visual issues a model can’t see on a screen. With 40% of new AI-assisted code getting rewritten within two weeks and roughly half of AI-generated code failing its first review, generating faster without verification just moves the bottleneck downstream.
+      - generic [ref=e835]:
+        - button "Couldn’t we build a solution like AURA ourselves?" [ref=e836] [cursor=pointer]
+        - paragraph [ref=e842]: "You can build the infrastructure, but you can’t build the dataset. The infrastructure is within reach: a device fleet, parallel execution, failure analytics, and ongoing maintenance, but it ties up your most expensive engineers on work that doesn’t differentiate your product. AURA’s AI is informed by learnings from more than 8.7 billion test runs over nearly two decades, and an in-house build starts from zero history. Forrester's Total Economic Impact study of Sauce Labs put the infrastructure savings alone at $1.3M over three years."
+      - generic [ref=e845]:
+        - button "Will AURA fit our existing tech stack?" [ref=e846] [cursor=pointer]
+        - paragraph [ref=e852]: "Adoption fails when a tool demands a workflow change. AURA embeds where developers already work: VS Code, JetBrains, Cursor, Claude Code, and Copilot, plus agent access through the Sauce Labs MCP Server, every major delivery pipeline, and full support for Selenium, Cypress, Appium, and Playwright. Nothing migrates. Enter as an addition to the stack, starting with end-to-end or functional interface testing."
+      - generic [ref=e855]:
+        - button "Do we need specialized expertise to use AURA?" [ref=e856] [cursor=pointer]
+        - paragraph [ref=e862]: No. With intent-based authoring, anyone can describe a user journey in plain language, “log in, add to cart, check out”, and get an executable test across web and mobile, with full code control whenever your engineers want it. Test creation runs up to 80% faster, taking teams from ideas to running tests in minutes. Support scales up to around-the-clock with dedicated technical account managers.
+      - generic [ref=e865]:
+        - button "How reliable are the test results?" [ref=e866] [cursor=pointer]
+        - paragraph [ref=e872]: Most flakiness stems from brittle, selector-based tests rather than the underlying infrastructure. AI-authored tests survive interface changes and cut breaking changes by 75%, and every run returns video, screenshots, logs, and network captures, so failures are explainable rather than a mystery. Sauce AI for Insights flags flaky patterns across runs before they cost you a release.
+      - generic [ref=e875]:
+        - button "What security and compliance certifications do you hold?" [ref=e876] [cursor=pointer]
+        - generic [ref=e881]:
+          - paragraph [ref=e882]: Sauce Labs is ISO/IEC 42001 certified — the first international standard for responsible AI management — alongside ISO 27001, ISO 27701, SOC 2 Type II, and alignment with GDPR/CCPA.
+          - paragraph [ref=e883]: Enterprise customers can request a full security review through our Trust Center.
+      - generic [ref=e886]:
+        - button "Why should we trust Sauce Labs?" [ref=e887] [cursor=pointer]
+        - paragraph [ref=e893]: Our founders created Selenium and Appium, the frameworks that much of enterprise testing still runs on today. The platform has executed more than 8.7 billion tests over nearly two decades, and more than 300,000 enterprise users depend on it, including over 80% of the top 10 F2000 banks. You can likely verify with a peer reference in your own industry.
+  - generic [ref=e895]:
+    - heading "Stop letting quality be the bottleneck on AI-speed development." [level=2] [ref=e896]
+    - generic [ref=e897]:
+      - link "Book a Demo" [ref=e899] [cursor=pointer]:
+        - /url: /request-demo
+      - link "Start Free" [ref=e908] [cursor=pointer]:
+        - /url: https://saucelabs.com/sign-up
+  - contentinfo [ref=e910]:
+    - generic [ref=e911]:
+      - generic [ref=e912]:
+        - generic [ref=e913]:
+          - generic [ref=e914]:
+            - heading "Products" [level=3] [ref=e915]
+            - generic [ref=e916]:
+              - paragraph [ref=e918]: Products
+              - link "Real Device Cloud" [ref=e920] [cursor=pointer]:
+                - /url: /products/real-device-cloud
+              - link "Virtual Device Cloud" [ref=e921] [cursor=pointer]:
+                - /url: /products/virtual-device-cloud
+              - link "Sauce AI for Test Authoring" [ref=e922] [cursor=pointer]:
+                - /url: /products/sauce-ai-for-authoring
+              - link "Sauce AI for Insights" [ref=e923] [cursor=pointer]:
+                - /url: /products/sauce-ai-for-insights
+              - link "Sauce Visual" [ref=e924] [cursor=pointer]:
+                - /url: /products/visual-testing
+              - link "Mobile App Distribution" [ref=e925] [cursor=pointer]:
+                - /url: /products/mobile-app-distribution
+              - link "Sauce Error Reporting" [ref=e926] [cursor=pointer]:
+                - /url: /products/error-reporting
+          - generic [ref=e927]:
+            - heading "Solutions" [level=3] [ref=e928]
+            - generic [ref=e929]:
+              - generic [ref=e930]:
+                - generic [ref=e931]:
+                  - paragraph [ref=e933]: Personas
+                  - link "CTOs" [ref=e935] [cursor=pointer]:
+                    - /url: /personas/aura-for-ctos
+                  - link "Director" [ref=e936] [cursor=pointer]:
+                    - /url: /personas/aura-for-directors-of-engineering
+                  - link "Developers" [ref=e937] [cursor=pointer]:
+                    - /url: /personas/aura-for-developers
+                - generic [ref=e938]:
+                  - paragraph [ref=e940]: Use Cases
+                  - link "Intent-Based Test Generation" [ref=e942] [cursor=pointer]:
+                    - /url: /use-case/intent-based-test-generation
+                  - link "Resilient Test Infrastructure" [ref=e943] [cursor=pointer]:
+                    - /url: /use-case/resilient-test-infrastructure
+                  - link "Real-World Device Coverage" [ref=e944] [cursor=pointer]:
+                    - /url: /use-case/real-world-device-coverage
+                  - link "Automated Test Case Execution" [ref=e945] [cursor=pointer]:
+                    - /url: /use-case/automated-test-execution
+                  - link "AI-Powered Test Failure Analysis" [ref=e946] [cursor=pointer]:
+                    - /url: /use-case/ai-powered-test-failure-analysis
+                  - link "Integrated Beta Testing" [ref=e947] [cursor=pointer]:
+                    - /url: /use-case/integrated-beta-testing
+                  - link "Production Error Analysis" [ref=e948] [cursor=pointer]:
+                    - /url: /use-case/production-error-analysis
+                - generic [ref=e949]:
+                  - paragraph [ref=e951]: Industries
+                  - link "Financial Services" [ref=e953] [cursor=pointer]:
+                    - /url: https://saucelabs.com/solutions/financial-institutions
+                  - link "Retail" [ref=e954] [cursor=pointer]:
+                    - /url: https://saucelabs.com/solutions/retail
+                  - link "Insurance" [ref=e955] [cursor=pointer]:
+                    - /url: https://saucelabs.com/solutions/insurance
+                  - link "Healthcare" [ref=e956] [cursor=pointer]:
+                    - /url: https://saucelabs.com/solutions/healthcare
+                  - link "Gaming" [ref=e957] [cursor=pointer]:
+                    - /url: https://saucelabs.com/solutions/gaming
+              - generic [ref=e958]:
+                - generic [ref=e959]:
+                  - paragraph [ref=e961]: WHY SAUCE
+                  - link "Why Sauce" [ref=e963] [cursor=pointer]:
+                    - /url: /why-sauce
+                - generic [ref=e964]:
+                  - paragraph [ref=e966]: Compare
+                  - link "Sauce Labs vs. TestMu" [ref=e968] [cursor=pointer]:
+                    - /url: /sauce-labs-vs-lambdatest
+                  - link "Sauce Labs vs. Browserstack" [ref=e969] [cursor=pointer]:
+                    - /url: /sauce-labs-vs-browserstack
+                  - link "Sauce Labs vs. Perfecto" [ref=e970] [cursor=pointer]:
+                    - /url: /sauce-labs-vs-perfecto
+                  - link "Sauce Labs vs. LLM" [ref=e971] [cursor=pointer]:
+                    - /url: /sauce-labs-vs-diy-llms
+                - generic [ref=e973]:
+                  - paragraph [ref=e975]: SERViCES
+                  - link "Enterprise Support" [ref=e977] [cursor=pointer]:
+                    - /url: https://saucelabs.com/enterprise-support
+                  - link "Premium Consulting Services" [ref=e978] [cursor=pointer]:
+                    - /url: https://saucelabs.com/consulting-services
+        - generic [ref=e980]:
+          - heading "Resources" [level=3] [ref=e981]
+          - generic [ref=e982]:
+            - generic [ref=e983]:
+              - generic [ref=e984]:
+                - paragraph [ref=e986]: Docs & Support
+                - link "Documentation" [ref=e988] [cursor=pointer]:
+                  - /url: https://docs.saucelabs.com/
+                - link "Changelog" [ref=e989] [cursor=pointer]:
+                  - /url: https://changelog.saucelabs.com/en
+                - link "Support" [ref=e990] [cursor=pointer]:
+                  - /url: https://support.saucelabs.com/
+                - link "Product tours" [ref=e991] [cursor=pointer]:
+                  - /url: /demo-tours
+                - link "FAQs" [ref=e992] [cursor=pointer]:
+                  - /url: https://saucelabs.com/faqs
+              - generic [ref=e993]:
+                - paragraph [ref=e995]: How-To Guides
+                - link "Selenium" [ref=e997] [cursor=pointer]:
+                  - /url: https://docs.saucelabs.com/web-apps/automated-testing/selenium/quickstart/
+                - link "Appium" [ref=e998] [cursor=pointer]:
+                  - /url: https://docs.saucelabs.com/mobile-apps/automated-testing/appium/quickstart/
+                - link "Cypress" [ref=e999] [cursor=pointer]:
+                  - /url: https://docs.saucelabs.com/web-apps/automated-testing/cypress/quickstart/
+                - link "Playwright" [ref=e1000] [cursor=pointer]:
+                  - /url: https://docs.saucelabs.com/web-apps/automated-testing/playwright/quickstart/
+                - link "Mobile app testing" [ref=e1001] [cursor=pointer]:
+                  - /url: https://docs.saucelabs.com/mobile-apps/
+                - link "Web app testing" [ref=e1002] [cursor=pointer]:
+                  - /url: https://docs.saucelabs.com/web-apps/
+                - link "CI" [ref=e1003] [cursor=pointer]:
+                  - /url: https://docs.saucelabs.com/ci/
+            - generic [ref=e1005]:
+              - paragraph [ref=e1007]: Setup & Configure
+              - link "Integrations" [ref=e1009] [cursor=pointer]:
+                - /url: https://saucelabs.com/products/integrations-and-plugins
+              - link "Supported browsers & devices" [ref=e1010] [cursor=pointer]:
+                - /url: https://saucelabs.com/products/supported-browsers-devices
+              - link "Platform configurator" [ref=e1011] [cursor=pointer]:
+                - /url: https://saucelabs.com/products/platform-configurator
+        - generic [ref=e1012]:
+          - heading "Company" [level=3] [ref=e1013]
+          - generic [ref=e1016]:
+            - paragraph [ref=e1018]: about sauce
+            - link "About Us" [ref=e1020] [cursor=pointer]:
+              - /url: https://saucelabs.com/about-us
+            - link "Trust Center" [ref=e1021] [cursor=pointer]:
+              - /url: https://trust.saucelabs.com/
+            - link "Case Studies" [ref=e1022] [cursor=pointer]:
+              - /url: https://saucelabs.com/resources/case-studies
+            - link "Careers" [ref=e1023] [cursor=pointer]:
+              - /url: https://saucelabs.com/careers
+            - link "News" [ref=e1024] [cursor=pointer]:
+              - /url: https://saucelabs.com/company/news
+            - link "Systems Status" [ref=e1025] [cursor=pointer]:
+              - /url: https://status.saucelabs.com/
+      - generic [ref=e1026]:
+        - paragraph [ref=e1029]: © 2026 Sauce Labs Inc., All rights reserved. Sauce and Sauce Labs are registered trademarks owned by Sauce Labs Inc. in the United States, EU, and may be registered in other jurisdictions.
+        - navigation [ref=e1030]:
+          - link "Terms of Service" [ref=e1031] [cursor=pointer]:
+            - /url: https://saucelabs.com/doc/terms-of-service
+          - link "Privacy Policy" [ref=e1032] [cursor=pointer]:
+            - /url: https://saucelabs.com/doc/privacy-policy
+          - link "EEA" [ref=e1033] [cursor=pointer]:
+            - /url: https://saucelabs.com/doc/eea
+          - link "CCPA" [ref=e1034] [cursor=pointer]:
+            - /url: https://saucelabs.com/doc/ccpa
+          - button "Your Privacy Choices" [ref=e1035] [cursor=pointer]

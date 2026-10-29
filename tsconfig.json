@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "node16",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": ["node", "@playwright/test"],
+    "outDir": "dist"
+  },
+  "include": ["specs/**/*.ts", "playwright.bdd.config.ts", "fixtures.ts","specs/features/**/*.ts"]
+}
