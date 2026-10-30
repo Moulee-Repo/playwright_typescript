@@ -1,0 +1,12 @@
+services:
+  playwright-tests:
+    build:
+      context: .
+    init: true
+    shm_size: 1gb
+    environment:
+      CI: "true"
+      PLAYWRIGHT_DOCKER: "true"
+    volumes:
+      - ./reports:/app/reports
+      - ./test-results:/app/test-results

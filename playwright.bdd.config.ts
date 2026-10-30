@@ -29,7 +29,7 @@ export default defineConfig({
     navigationTimeout: 30000,
     trace: 'on-first-retry',
     browserName: 'chromium', // Default browser for all tests
-    headless: false,
+    headless: Boolean(process.env.CI || process.env.PLAYWRIGHT_DOCKER),
   },
   // Retry failing tests twice on CI, but 0 times locally
   retries: process.env.CI ? 2 : 0, 

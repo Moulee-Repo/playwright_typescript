@@ -20,7 +20,7 @@ export default defineConfig({
     navigationTimeout: 30000,
     trace: 'on-first-retry',
     browserName: 'chromium', // Default browser for all tests
-    headless: false,
+    headless: Boolean(process.env.CI || process.env.PLAYWRIGHT_DOCKER),
   },
   // Retry failing tests twice on CI, but 0 times locally
   retries: process.env.CI ? 2 : 0, 
@@ -38,19 +38,22 @@ export default defineConfig({
     ['json', { outputFile: 'reports/native-results.json' }] // Outputs the structured JSON file
   ],
 
-  projects: 
-  [
+  projects: [
     { name: 'chromium', use: { browserName: 'chromium' } },
     { name: 'firefox', use: { browserName: 'firefox' } },
     { name: 'webkit', use: { browserName: 'webkit' } },
-    {
-      name: 'Microsoft Edge',
-      use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    },
-    {
-      name: 'Google Chrome',
-      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    },
+    ...(!process.env.PLAYWRIGHT_DOCKER
+      ? [
+          {
+            name: 'Microsoft Edge',
+            use: { ...devices['Desktop Edge'], channel: 'msedge' },
+          },
+          {
+            name: 'Google Chrome',
+            use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+          },
+        ]
+      : []),
     {
       name: 'Mobile Chrome',
       use: { ...devices['Pixel 5'] },
