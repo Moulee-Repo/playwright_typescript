@@ -3,6 +3,7 @@ name: Playwright CI
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   playwright-test:
@@ -28,3 +29,27 @@ jobs:
         with:
           name: test-results
           path: test-results/
+
+  browserstack-test:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Playwright tests on BrowserStack
+        env:
+          BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+          BROWSERSTACK_BUILD_NAME: GitHub-${{ github.run_number }}
+        run: npm run test:browserstack

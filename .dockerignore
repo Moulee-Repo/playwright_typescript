@@ -1,5 +1,8 @@
 .git
 .features-gen
+.env
+.env.*
+!.env.example
 node_modules
 reports
 test-results
